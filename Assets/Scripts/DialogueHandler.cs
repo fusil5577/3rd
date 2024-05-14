@@ -16,6 +16,7 @@ public class DialogueHandler : MonoBehaviour
     public void CloseDialogue()
     {
         npcDialogueBtn.SetActive(true);
+        npcDialogue.SetActive(false);
         this.gameObject.SetActive(false);
     }
 }
